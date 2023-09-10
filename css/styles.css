@@ -9,6 +9,7 @@ body {
 :root {
   --white-color: #fff;
   --highlight-color: #2196f3;
+  --highlight-hover-color: #188CE8;
   --description-color: #757575;
   --bg-color: #2f303a;
 }
@@ -71,13 +72,13 @@ color: var(--highlight-color);
   line-height: 1.88;
   cursor: pointer;
   border: 0px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-family: inherit;
 }
 .hero-button:hover,
-.hero-button:active,
-.hero-button:focus {
-  background-color: #188ce8;
+.hero-button:active{
+  background-color: var(--highlight-hover-color);
 }
 /* main section */
 .description-title {
