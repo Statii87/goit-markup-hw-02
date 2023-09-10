@@ -37,9 +37,7 @@ a{
     line-height: 1.17;
     letter-spacing: 0.02em;
 }
-.nav-link:hover,
-.nav-link:active,
-.nav-link:focus {
+.nav-link:hover {
   color: var(--highlight-color);
 }
 .nav-contact{
@@ -47,10 +45,11 @@ a{
   font-weight: 500;
   letter-spacing: 0.02em;
 }
-.nav-contact:hover,
-.nav-contact:active,
-.nav-contact:focus {
+.nav-contact:hover{
   color: var(--highlight-color);
+}
+.current{
+color: var(--highlight-color);
 }
 /* Hero Section */
 .hero-section{
@@ -73,6 +72,7 @@ a{
   cursor: pointer;
   border: 0px;
   border-radius: 4px;
+  font-family: inherit;
 }
 .hero-button:hover,
 .hero-button:active,
